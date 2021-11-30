@@ -1,0 +1,12 @@
+<p><span>"{{catName}}" is the <i>interpolated</i> title.</span></p>
+<p>"<span [innerHTML]="catName"></span>" is the <i>property bound</i> title.</p>
+
+<p><img src="{{compontentPhotos[currentPhoto]}}" width="400"> is the <i>interpolated</i> image.</p>
+<p><img [src]="compontentPhotos[currentPhoto]" width="400"> is the <i>property bound</i> image.</p>
+<h4>Date Modified: {{catUpdated}}</h4>
+
+<button (click)="toggleImage()">Toggle Image</button>
+
+
+<!-- <p><span [innerHTML] = "test.Food"></span></p> -->
+
